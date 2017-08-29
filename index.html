@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Revelation : Waste Partners</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+      
+    <!-- Plugin CSS -->
+    <link href="vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/sb-admin.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+
+  <body class="fixed-nav sticky-footer bg-dark" id="page-top" style="font-family:'Lora', serif;">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+      <a class="navbar-brand" href="#"  ><img src="images/logo.png" width="30" height="30" class="d-inline-block align-top" alt=""><span><strong> REVELATION</strong></span></a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav navbar-sidenav" id="exampleAccordion">
+          <li class="nav-item active" data-toggle="tooltip" data-placement="right" title="Dashboard">
+            <a class="nav-link" href="#">
+              <i class="fa fa-address-book fa-fw" aria-hidden="true"></i>
+              <span class="nav-link-text">
+                Contacts Management</span>
+            </a>
+          </li>
+           <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Components">
+            <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
+              <i class="fa fa-refresh fa-fw" aria-hidden="true"></i>
+              <span class="nav-link-text">
+                Sustainability</span>
+            </a>
+            <ul class="sidenav-second-level collapse" id="collapseComponents">
+              <li>
+                <a href="#"> Overview</a>
+              </li>
+              <li>
+                <a href="#"> Recycle Rates</a>
+              </li>
+                <li>
+                <a href="#"> Targeted Recycle Rates</a>
+              </li>
+                <li>
+                <a href="#"> Material Specific</a>
+              </li>
+                <li>
+                <a href="#"> Zero Report</a>
+              </li>
+                <li>
+                <a href="#"> Tons Per Haul</a>
+              </li>
+            </ul>
+          </li>
+            <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Example Pages">
+            <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseExamplePages" data-parent="#exampleAccordion">
+              <i class="fa fa-usd fa-fw" aria-hidden="true"></i>
+              <span class="nav-link-text">
+                Financial</span>
+            </a>
+            <ul class="sidenav-second-level collapse" id="collapseExamplePages">
+              <li>
+                <a href="#"> Overview</a>
+              </li>
+              <li>
+                <a href="#"> Financial Trending</a>
+              </li>
+              <li>
+                <a href="#"> Benchmark Comparisions</a>
+              </li>
+              <li>
+                <a href="#"> Vendor Financial Trending</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Link">
+            <a class="nav-link" href="#">
+              <i class="fa fa-user-circle fa-fw" aria-hidden="true"></i>
+              <span class="nav-link-text">
+                Admin</span>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav sidenav-toggler">
+          <li class="nav-item">
+            <a class="nav-link text-center" id="sidenavToggler">
+              <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-lg-2" href="#" id="messagesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-handshake-o fa-fw"></i>
+              <span class="nav-link-text">Company</span>
+              
+            </a>
+            <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+              <h6 class="dropdown-header">Companies:</h6>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <strong>Company 1</strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <strong>Company 2</strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <strong>Company 3</strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item small" href="#">
+                View all
+              </a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-lg-2" href="#" id="alertsDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-balance-scale fa-fw"></i>
+              <span class="nav-link-text">Pounds(lb)</span>
+            </a>
+            <div class="dropdown-menu" aria-labelledby="alertsDropdown">
+              <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">
+                <strong>           
+                    Selection 1 </strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <strong>           
+                    Selection 2</strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <strong>           
+                    Selection 3</strong>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <form class="form-inline my-2 my-lg-0 mr-lg-2">
+              <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search for...">
+                <span class="input-group-btn">
+                  <button class="btn btn-outline-secondary" type="button">
+                    <i class="fa fa-search fa-fw"></i>
+                  </button>
+                </span>
+              </div>
+            </form>
+          </li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle mr-lg-2" href="#" id="messagesDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="images/man1.png" class="d-inline-block align-top" alt="">
+              <span class="nav-link-text"> Jeff Turner</span> 
+            </a>
+            <div class="dropdown-menu" aria-labelledby="messagesDropdown">
+              
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                <i class="fa fa-user-o fa-fw" aria-hidden="true"></i>      
+                <strong>Profile</strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                  <i class="fa fa-cog fa-fw" aria-hidden="true"></i>
+                <strong>Settings</strong>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">
+                  <i class="fa fa-sign-out fa-fw" aria-hidden="true"></i>
+                <strong>Logout</strong>
+                </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content-wrapper">
+
+      <div class="container-fluid">
+
+        <!-- Breadcrumbs -->
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="#">Home</a>
+          </li>
+          <li class="breadcrumb-item active">Contacts Management Systems</li>
+        </ol>
+
+          <div class="card ">
+              <div class="card-header">
+                 <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search" id="myInput" onkeyup="myFunction()">
+                <span class="input-group-btn">
+                  <button class="btn btn-outline-primary" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+                </span>
+              </div>
+              </div>
+             <ul class="list-group list-group-flush" id="list_div">                  
+              </ul>
+                  <!--</div> -->
+            </div>
+
+      </div>
+      <!-- /.container-fluid -->
+
+    </div>
+    <!-- /.content-wrapper -->
+
+    <footer class="sticky-footer" style="font-family:'Lora', serif;">
+      <div class="container">
+        <div class="text-center">
+          <small>Revelation Waste Partners&copy;2017</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fa fa-angle-up"></i>
+    </a>
+
+    <!-- Modal -->
+    <div class="modal fade  bd-example-modal-lg" id="viewModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true" >
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-dark" style="color: white;">
+            <h4 class="modal-title" id="exampleModalLabel">DETAILS</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><img src="images/multiply.png" alt=""></span>
+            </button>
+          </div>
+          <div class="modal-body">
+           <div class="table-responsive">
+              <table class="table table-bordered" width="100%" id="dataTable" cellspacing="0" style="border-radius: .5em; box-shadow: 0 0 .5em #000; border-collapse: collapse;">
+                <tbody>
+                  <tr>
+                    <th>First Name:</th>
+                    <td id="firstname"></td>
+                  </tr>
+                  <tr>
+                    <th>Last Name:</th>
+                    <td id="lastname"></td>
+                  </tr>
+                  <tr>
+                    <th>Company Name:</th>
+                    <td id="companyname"></td>
+                  </tr>
+                  <tr>
+                    <th>Job title:</th>
+                    <td id="jobtitle"></td>
+                  </tr> 
+                    <tr>
+                    <th>Email Address:</th>
+                    <td id="emailaddress"></td>
+                  </tr>
+                  <tr>
+                    <th>Primary Phone Number:</th>
+                    <td id ="primaryphonenumber">                       
+                    </td>
+                  </tr>
+                    <tr>
+                    <th>Fax Number:</th>
+                    <td id= "faxnumber">                      
+                    </td>
+                  </tr>
+                    <tr>
+                    <th>Mobile Number:</th>
+                    <td id="mobilenumber">                        
+                    </td>
+                  </tr>
+                    <tr>
+                    <th>Street Address:</th>
+                    <td id="streetaddress"></td>
+                  </tr>
+                     <tr>
+                    <th>City:</th>
+                    <td id="city"></td>
+                  </tr>
+                     <tr>
+                    <th>State:</th>
+                    <td id="state"></td>
+                  </tr>
+                     <tr>
+                    <th>Zip:</th>
+                    <td id="zip"></td>
+                  </tr>
+                     <tr>
+                    <th>Notes:</th>
+                    <td id="notes">                      
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+      
+   <!-- Modal -->
+    <div class="modal fade  bd-example-modal-lg" id="updateModal" tabindex="-1" role="dialog" aria-hidden="true" >
+      <div class="modal-dialog bd-example-modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header bg-dark" style="color: white;">
+            <h4 class="modal-title">PROFILE</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true"><img src="images/multiply.png" alt=""></span>
+            </button>
+          </div>
+          <div class="modal-body">
+          
+               <div class="row">
+					  	<div class="col-md-6">
+					  		 <label for="firstname"><b>First Name</b></label>
+                            <input type="text" class="form-control" id="fname" aria-describedby="lastnam" placeholder="Last name">
+					  	</div>
+					  	<div class="col-md-6">
+					    	<label for="lastname"><b>Last Name</b></label>
+					    	<input type="text" class="form-control" id="lname" aria-describedby="lastnam" placeholder="Last name">   
+					  	</div>
+					  </div>
+					  <div class="row">
+					  	<div class="col-md-6">
+					  		 <label for="companyname"><b>Company name</b></label>
+					         <input type="text" class="form-control" id="compname" aria-describedby="companynam" placeholder="Company name">  
+					  	</div>
+					  	<div class="col-md-6">
+					    	<label for="jobtitle">Job title</label>
+					    	<input type="text" class="form-control" id="jobtle" aria-describedby="jobtitl" placeholder="Job title">   
+					  	</div>
+					  </div>
+					  <div class="row">
+					  	<div class="col-md-6">
+					  		 <label for="emailaddress"><b>Email</b></label>
+					         <input type="text" class="form-control" id="email" aria-describedby="emailaddres" placeholder="Email address">  
+					  	</div>
+                          <div class="col-md-6">
+					    	<label for="primaryphonenumber"><b>Primary Phone Number</b></label>
+					    	<input type="text" class="form-control" id="phonenumber" aria-describedby="primaryphonenumbe" placeholder="Phone number">   
+					  	</div>
+					  	
+					  </div>
+					  <div class="row">
+                          <div class="col-md-6">
+					  		 <label for="faxnumber"><b>Fax Number</b></label>
+					         <input type="text" class="form-control" id="fnumber" aria-describedby="faxnumber" placeholder="Fax number">  
+					  	</div>
+					  	<div class="col-md-6">
+					    	<label for="mobilenumber"><b>Mobile Number</b></label>
+					    	<input type="text" class="form-control" id="mnumber" aria-describedby="mobilenumbe" placeholder="Mobile number">
+					  	</div>
+					  	
+					  </div>
+					  <div class="row">
+					  	
+					  	<div class="col-md-6">
+					    	<label for="streetaddress"><b>Street Address</b></label>
+					    	<input type="text" class="form-control" id="address" aria-describedby="streetaddres" placeholder="Street address">   
+					  	</div>
+                          <div class="col-md-6">
+					  		 <label for="city"><b>City</b></label>
+					         <input type="text" class="form-control" id="city1" aria-describedby="cit" placeholder="City">  
+					  	</div>
+					  </div>
+					  <div class="row">
+                          <div class="col-md-6">
+					    	<label for="state"><b>State</b></label>
+					    	<input type="text" class="form-control" id="state1" aria-describedby="stat" placeholder="State">   
+					  	</div>
+					  	<div class="col-md-6">
+					  		 <label for="zip"><b>Zip</b></label>
+					         <input type="text" class="form-control" id="zip1" aria-describedby="zip" placeholder="Zip">  
+					  	</div>
+					  </div>
+					  <div class="row">
+					  	<div class="col-md-12">
+					  		 <label for="notes"><b>Notes</b></label>
+					  		 <textarea class="form-control" id="notes1" placeholder="Notes ..."></textarea> 
+					  	</div>
+					  </div>
+					  <div class="row">
+					  	<div class="col-md-12">
+                            <br>
+					  		<button type="submit" class="btn btn-primary" onclick="saveRecord()">Save</button>
+					  	</div>
+					  </div>              
+            </div>
+          </div>
+          <!-- <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <a class="btn btn-outline-primary" href="blank.html">Back</a>
+          </div> -->
+        </div>
+      </div>
+      
+      
+      
+      
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/popper/popper.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--
+      <script> 
+      
+      </script>
+-->
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/chart.js/Chart.min.js"></script>
+    <script src="vendor/datatables/jquery.dataTables.js"></script>
+    <script src="vendor/datatables/dataTables.bootstrap4.js"></script>
+      <script src="js/main.js"></script>
+    <!-- Custom scripts for this template -->
+    <script src="js/sb-admin.min.js"></script>
+
+  </body>
+
+</html>
